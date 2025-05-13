@@ -24,4 +24,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Add this to your repo secrets
-        run: python .github/scripts/ai_review.py
+        run: python ../.github/scripts/ai_review.py
